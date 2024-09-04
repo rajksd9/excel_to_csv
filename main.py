@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-input_file = input("Enter the file path")
+input_file = input("Enter the file path: ")
 df=pd.read_excel(input_file)
 
 # to get the sheet names
